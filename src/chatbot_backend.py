@@ -38,7 +38,7 @@ def demo_conversation(input_text,memory):
     return chat_reply['response']
 
 # %%
-demo_conversation("tell me about your self ",demo_memory())
+# demo_conversation("tell me about your self ",demo_memory())
 
 # %%
 
