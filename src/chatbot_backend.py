@@ -35,7 +35,7 @@ def demo_conversation(input_text,memory):
         verbose=True
     )
     chat_reply = llm_conversation.invoke(input_text)
-    return chat_reply
+    return chat_reply['response']
 
 # %%
 demo_conversation("tell me about your self ",demo_memory())
